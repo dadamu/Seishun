@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Seishun</string>
+    <string name="personText">人數:</string>
+    <string name="timeText">時間:</string>
+    <string name="machineText">機種</string>
+    <string name="normalNoonText">平日(~16)</string>
+    <string name="normalNightText">平日(16~)</string>
+    <string name="holidayText">假日</string>
+    <string name="normalMachineText">JS CROSSO/DAM</string>
+    <string name="specialMachineText">JS F1</string>
+    <string name="bonusText">優惠</string>
+    <string name="birthdayText">生日優惠</string>
+    <string name="pointText">點數優惠</string>
+    <string name="timePriceText">每時:</string>
+    <string name="personPriceText">多人:</string>
+    <string name="totalPriceText">總共:</string>
+    <string name="perPriceText">每人:</string>
+</resources>
