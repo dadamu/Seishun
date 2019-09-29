@@ -181,9 +181,9 @@ public class MainActivity extends AppCompatActivity {
         if(timeCount <=3)
             timeCount = 3;
         if(personCount<4)
-            totalPrice = (timePrice - birthdayDiscount * 25 - pointDiscount * 30) * timeCount;
+            totalPrice = (timePrice - birthdayDiscount * 25 * 2 - pointDiscount * 30 * 2) * timeCount;
         else
-            totalPrice = (timePrice - birthdayDiscount * 25 - pointDiscount * 30) * timeCount + personPrice * (personCount-3);
+            totalPrice = (timePrice - birthdayDiscount * 25 * 2 - pointDiscount * 30 * 2) * timeCount + personPrice * (personCount-3);
         perPrice = totalPrice / personCount;
     }
     private void ChangeText(){
